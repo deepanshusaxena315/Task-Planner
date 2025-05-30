@@ -69,7 +69,7 @@ function App() {
       <div className='bg-slate-800'>
         <Navbar />
         <div className="sm:container mx-auto my-9 p-5 rounded-2xl bg-zinc-400 min-h-[80vh] md:w-3/5 flex-col items-center ">
-          <div className='text-4xl font-bold w-full mx-auto text-center'> Listly📝 - Manage your tasks in one place </div>
+          <div className='text-4xl font-bold w-full mx-auto text-center'> Taskup - Manage your tasks in one place </div>
           <div className="addTodo ">
             <h2 className=" font-bold text-lg my-7 text-center">  Add a to-do:</h2>
             <input onKeyDown={(e) => {if (e.key === "Enter") { handleAdd();}}} value={todo} onChange={handleChange} type="text" className="text-black bg-white p-2 rounded-md outline-2 md:w-3/4 ml-7"/>

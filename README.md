@@ -1,13 +1,34 @@
-# taskRush - todo app
+# ✅ TaskUp
 
-## live demo ->
-[click here]( https://deepanshusaxena315.github.io/Task-Planner/)
+**TaskUp** is a simple and responsive to-do app to help you manage tasks effectively — right in your browser.
 
-Currently, two official plugins are available:
+### 🔗 Live Demo  
+[🌐 View TaskUp](https://deepanshusaxena315.github.io/TaskUp-Task-Planner/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ➕ Add new tasks
+- ✅ Mark tasks as complete
+- 🗑️ Delete tasks
+- 💾 Saves tasks in your browser using localStorage
+- ⚡ Fast and responsive UI with React + Vite
+
+---
+
+## 🧰 Tech Stack
+
+- **Frontend**: React, Vite
+- **Storage**: localStorage
+- **Hosting**: GitHub Pages
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/deepanshusaxena315/Task-Planner.git
+cd Task-Planner
+npm install
+npm run dev

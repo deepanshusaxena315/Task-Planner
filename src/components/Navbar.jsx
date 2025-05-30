@@ -5,7 +5,7 @@ const Navbar = () => {
       <nav className='flex justify-around bg-gray-400  py-2 mt-1  items-center rounded-3xl'>
       <div className="  logo">
         <span className='font-bold text-2xl text-'>
-          Listly
+          Taskup
         </span>
       </div>
       <ul className="flex gap-10 mr-12">
