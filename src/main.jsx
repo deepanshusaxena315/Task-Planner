@@ -5,6 +5,8 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <div className='min-h-screen bg-gradient-to-b  via-stone-600 to-zinc-900'>
+      <App />
+    </div>
   </StrictMode>,
 )
